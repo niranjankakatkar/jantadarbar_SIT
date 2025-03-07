@@ -1,0 +1,658 @@
+ERROR - 2025-01-18 10:32:05 --> mysqli_sql_exception: Table 'sitsolutionsco_fts.login_master' doesn't exist in /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+#6 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+#7 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+#8 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-18 10:32:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.login_master' doesn't exist
+[Method: POST, Route: signIn]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 2 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 10:32:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.login_master' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login_master`
+WHERE `username` = \'admin\'
+AND `password` = \'123\'
+AND `isdeleted` = \'0\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login_master`
+WHERE `username` = \'admin\'
+AND `password` = \'123\'
+AND `isdeleted` = \'0\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 4 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 10:32:05 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_fts.login_master' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *
+FROM `login_master`
+WHERE `username` = \'admin\'
+AND `password` = \'123\'
+AND `isdeleted` = \'0\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login_master`
+WHERE `username` = \'admin\'
+AND `password` = \'123\'
+AND `isdeleted` = \'0\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login_master`
+WHERE `username` = \'admin\'
+AND `password` = \'123\'
+AND `isdeleted` = \'0\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 5 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-18 10:37:10 --> mysqli_sql_exception: Table 'sitsolutionsco_fts.login_master' doesn't exist in /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+#6 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+#7 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+#8 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-18 10:37:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.login_master' doesn't exist
+[Method: POST, Route: signIn]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 2 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 10:37:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.login_master' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login_master`
+WHERE `username` = \'admin\'
+AND `password` = \'123\'
+AND `isdeleted` = \'0\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login_master`
+WHERE `username` = \'admin\'
+AND `password` = \'123\'
+AND `isdeleted` = \'0\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 4 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 10:37:10 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_fts.login_master' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *
+FROM `login_master`
+WHERE `username` = \'admin\'
+AND `password` = \'123\'
+AND `isdeleted` = \'0\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login_master`
+WHERE `username` = \'admin\'
+AND `password` = \'123\'
+AND `isdeleted` = \'0\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login_master`
+WHERE `username` = \'admin\'
+AND `password` = \'123\'
+AND `isdeleted` = \'0\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 5 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-18 10:48:10 --> mysqli_sql_exception: Table 'sitsolutionsco_fts.tbl_zone' doesn't exist in /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `...', 0)
+#1 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+#5 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+#6 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-18 10:48:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.tbl_zone' doesn't exist
+[Method: GET, Route: ViewZone]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 2 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 10:48:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.tbl_zone' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 3 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 10:48:10 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_fts.tbl_zone' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 5 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-18 11:22:09 --> mysqli_sql_exception: Table 'sitsolutionsco_fts.tbl_zone' doesn't exist in /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `...', 0)
+#1 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+#5 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+#6 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-18 11:22:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.tbl_zone' doesn't exist
+[Method: GET, Route: ViewZone]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 2 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 11:22:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.tbl_zone' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 3 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 11:22:09 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_fts.tbl_zone' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 5 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 11:28:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Department/view.php"
+[Method: GET, Route: Department]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Department/view.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Department/view', [], true)
+ 3 APPPATH/Controllers/Master/MasterController.php(23): view('Master/Department/view')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->Department()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 16:59:14 --> ErrorException: Undefined variable $ZoneData
+[Method: GET, Route: Department]
+in APPPATH/Views/Master/Department/view.php on line 50.
+ 1 APPPATH/Views/Master/Department/view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ZoneData', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/Department/view.php', 50)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/Department/view.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Department/view', [], true)
+ 5 APPPATH/Controllers/Master/MasterController.php(23): view('Master/Department/view')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->Department()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-18 11:41:55 --> mysqli_sql_exception: Table 'sitsolutionsco_fts.tbl_department' doesn't exist in /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM t...', 0)
+#1 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Controllers/Master/MasterController.php(23): App\Models\Master\MasterModel->getAllData('tbl_department')
+#5 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->Department()
+#6 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-18 11:41:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.tbl_department' doesn't exist
+[Method: GET, Route: Department]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_department WHERE isdeleted = 0 order by id desc')
+ 2 APPPATH/Controllers/Master/MasterController.php(23): App\Models\Master\MasterModel->getAllData('tbl_department')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->Department()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 11:41:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.tbl_department' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_department WHERE isdeleted = 0 order by id desc')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_department WHERE isdeleted = 0 order by id desc')
+ 3 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_department WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Controllers/Master/MasterController.php(23): App\Models\Master\MasterModel->getAllData('tbl_department')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->Department()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 11:41:55 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_fts.tbl_department' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM tbl_department WHERE isdeleted = 0 order by id desc', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_department WHERE isdeleted = 0 order by id desc')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_department WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_department WHERE isdeleted = 0 order by id desc')
+ 5 APPPATH/Controllers/Master/MasterController.php(23): App\Models\Master\MasterModel->getAllData('tbl_department')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->Department()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 12:40:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Department/add?ID=Mg==.php"
+[Method: POST, Route: store_dept]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Department/add?ID=Mg==.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Department/add?ID=Mg==', [], true)
+ 3 APPPATH/Controllers/Master/MasterController.php(67): view('Master/Department/add?ID=Mg==', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->store_dept()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 18:56:14 --> ErrorException: Undefined variable $list
+[Method: GET, Route: AddDepartment]
+in APPPATH/Views/Master/Department/add.php on line 52.
+ 1 APPPATH/Views/Master/Department/add.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/Department/add.php', 52)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/Department/add.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Department/add', [], true)
+ 5 APPPATH/Controllers/Master/MasterController.php(28): view('Master/Department/add')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->AddDepartment()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 14:03:41 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::deleteRec()
+[Method: GET, Route: Department]
+in APPPATH/Controllers/Master/MasterController.php on line 147.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 14:03:44 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::deleteRec()
+[Method: GET, Route: Department]
+in APPPATH/Controllers/Master/MasterController.php on line 147.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 14:03:44 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::deleteRec()
+[Method: GET, Route: Department]
+in APPPATH/Controllers/Master/MasterController.php on line 147.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 14:04:29 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::deleteRec()
+[Method: GET, Route: Department]
+in APPPATH/Controllers/Master/MasterController.php on line 147.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 14:04:30 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::deleteRec()
+[Method: GET, Route: Department]
+in APPPATH/Controllers/Master/MasterController.php on line 147.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 19:38:16 --> ErrorException: Undefined array key "direction"
+[Method: GET, Route: Role]
+in APPPATH/Views/Master/Role/view.php on line 52.
+ 1 APPPATH/Views/Master/Role/view.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "direction"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/Role/view.php', 52)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/Role/view.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Role/view', [], true)
+ 5 APPPATH/Controllers/Master/MasterController.php(94): view('Master/Role/view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->Role()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 19:39:01 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: Role]
+in APPPATH/Views/Master/Role/view.php on line 56.
+ 1 APPPATH/Views/Master/Role/view.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/Role/view.php', 56)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/Role/view.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Role/view', [], true)
+ 5 APPPATH/Controllers/Master/MasterController.php(94): view('Master/Role/view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->Role()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 14:34:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Role/edit.php"
+[Method: GET, Route: updateRole]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Role/edit.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Role/edit', [], true)
+ 3 APPPATH/Controllers/Master/MasterController.php(143): view('Master/Role/edit', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateRole()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 20:05:46 --> ErrorException: Undefined array key "direction"
+[Method: GET, Route: updateRole]
+in APPPATH/Views/Master/Role/edit.php on line 52.
+ 1 APPPATH/Views/Master/Role/edit.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "direction"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/Role/edit.php', 52)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/Role/edit.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Role/edit', [], true)
+ 5 APPPATH/Controllers/Master/MasterController.php(143): view('Master/Role/edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateRole()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 20:36:57 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(21): view('Dashboard/adminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 15:20:46 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::store_dept()
+[Method: GET, Route: Department]
+in APPPATH/Controllers/Master/MasterController.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 15:21:01 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::store_dept()
+[Method: GET, Route: Designation]
+in APPPATH/Controllers/Master/MasterController.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 15:23:16 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::store_dept()
+[Method: GET, Route: Designation]
+in APPPATH/Controllers/Master/MasterController.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 15:24:44 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::store_dept()
+[Method: GET, Route: Designation]
+in APPPATH/Controllers/Master/MasterController.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 15:24:45 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::store_dept()
+[Method: GET, Route: Designation]
+in APPPATH/Controllers/Master/MasterController.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 15:24:46 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::store_dept()
+[Method: GET, Route: Designation]
+in APPPATH/Controllers/Master/MasterController.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 15:24:46 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::store_dept()
+[Method: GET, Route: Designation]
+in APPPATH/Controllers/Master/MasterController.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 15:29:22 --> ErrorException: Cannot redeclare App\Controllers\Master\MasterController::store_dept()
+[Method: GET, Route: RejectionReason]
+in APPPATH/Controllers/Master/MasterController.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-18 15:30:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Employee/view.php"
+[Method: GET, Route: Employee]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Employee/view.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Employee/view', [], true)
+ 3 APPPATH/Controllers/Master/EmployeeController.php(24): view('Master/Employee/view', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\EmployeeController->Employee()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 15:31:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Employee/view.php"
+[Method: GET, Route: Employee]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Employee/view.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Employee/view', [], true)
+ 3 APPPATH/Controllers/Master/EmployeeController.php(24): view('Master/Employee/view', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\EmployeeController->Employee()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 15:31:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Employee/view.php"
+[Method: GET, Route: Employee]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Employee/view.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Employee/view', [], true)
+ 3 APPPATH/Controllers/Master/EmployeeController.php(24): view('Master/Employee/view', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\EmployeeController->Employee()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 15:31:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Employee/view.php"
+[Method: GET, Route: Employee]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Employee/view.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Employee/view', [], true)
+ 3 APPPATH/Controllers/Master/EmployeeController.php(24): view('Master/Employee/view', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\EmployeeController->Employee()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 15:37:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Employee/view.php"
+[Method: GET, Route: Employee]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Employee/view.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Employee/view', [], true)
+ 3 APPPATH/Controllers/Master/EmployeeController.php(24): view('Master/Employee/view', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\EmployeeController->Employee()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\EmployeeController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-18 15:56:21 --> mysqli_sql_exception: Table 'sitsolutionsco_fts.tbl_vibhag' doesn't exist in /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM t...', 0)
+#1 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Controllers/Master/VibhagController.php(23): App\Models\Master\MasterModel->getAllData('tbl_vibhag')
+#5 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\VibhagController->Vibhag()
+#6 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\VibhagController))
+#7 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-18 15:56:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.tbl_vibhag' doesn't exist
+[Method: GET, Route: Vibhag]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_vibhag WHERE isdeleted = 0 order by id desc')
+ 2 APPPATH/Controllers/Master/VibhagController.php(23): App\Models\Master\MasterModel->getAllData('tbl_vibhag')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\VibhagController->Vibhag()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\VibhagController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 15:56:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.tbl_vibhag' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_vibhag WHERE isdeleted = 0 order by id desc')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_vibhag WHERE isdeleted = 0 order by id desc')
+ 3 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_vibhag WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Controllers/Master/VibhagController.php(23): App\Models\Master\MasterModel->getAllData('tbl_vibhag')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\VibhagController->Vibhag()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\VibhagController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 15:56:21 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_fts.tbl_vibhag' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM tbl_vibhag WHERE isdeleted = 0 order by id desc', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_vibhag WHERE isdeleted = 0 order by id desc')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_vibhag WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_vibhag WHERE isdeleted = 0 order by id desc')
+ 5 APPPATH/Controllers/Master/VibhagController.php(23): App\Models\Master\MasterModel->getAllData('tbl_vibhag')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\VibhagController->Vibhag()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\VibhagController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 21:28:03 --> ErrorException: Undefined array key "zonemsg"
+[Method: GET, Route: AddRejectReason]
+in APPPATH/Views/Master/RejectionReason/add.php on line 75.
+ 1 APPPATH/Views/Master/RejectionReason/add.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "zonemsg"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/RejectionReason/add.php', 75)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/RejectionReason/add.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/RejectionReason/add', [], true)
+ 5 APPPATH/Controllers/Master/MasterController.php(216): view('Master/RejectionReason/add')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->AddRejectReason()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 22:02:42 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(21): view('Dashboard/adminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-18 22:02:44 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(21): view('Dashboard/adminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

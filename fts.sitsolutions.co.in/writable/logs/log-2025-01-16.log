@@ -1,0 +1,1361 @@
+CRITICAL - 2025-01-16 05:08:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Zone/ViewZone.php"
+[Method: GET, Route: ViewZone]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Zone/ViewZone.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Zone/ViewZone', [], true)
+ 3 APPPATH/Controllers/Master/MasterController.php(29): view('Master/Zone/ViewZone')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 05:08:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Zone/ViewZone.php"
+[Method: GET, Route: ViewZone]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Zone/ViewZone.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Zone/ViewZone', [], true)
+ 3 APPPATH/Controllers/Master/MasterController.php(29): view('Master/Zone/ViewZone')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 05:19:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Zone/ViewZone.php"
+[Method: GET, Route: ViewZone]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Zone/ViewZone.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Zone/ViewZone', [], true)
+ 3 APPPATH/Controllers/Master/MasterController.php(29): view('Master/Zone/ViewZone')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 05:36:47 --> ErrorException: Undefined variable $MasterModel
+[Method: GET, Route: ViewZone]
+in APPPATH/Controllers/Master/MasterController.php on line 29.
+ 1 APPPATH/Controllers/Master/MasterController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MasterModel', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 29)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-16 05:37:20 --> mysqli_sql_exception: Unknown column 'isdeleted' in 'where clause' in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php(30): App\Models\Master\MasterModel->getZoneData()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-16 05:37:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'isdeleted' in 'where clause'
+[Method: GET, Route: ViewZone]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 2 APPPATH/Controllers/Master/MasterController.php(30): App\Models\Master\MasterModel->getZoneData()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 05:37:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'isdeleted' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 3 APPPATH/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Controllers/Master/MasterController.php(30): App\Models\Master\MasterModel->getZoneData()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 05:37:20 --> [Caused by] mysqli_sql_exception: Unknown column 'isdeleted' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE isdeleted = 0 order by id desc')
+ 5 APPPATH/Controllers/Master/MasterController.php(30): App\Models\Master\MasterModel->getZoneData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 05:37:29 --> ErrorException: Undefined variable $data
+[Method: GET, Route: ViewZone]
+in APPPATH/Controllers/Master/MasterController.php on line 31.
+ 1 APPPATH/Controllers/Master/MasterController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 31)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:20:12 --> ErrorException: Undefined property: stdClass::$login_id
+[Method: GET, Route: ViewZone]
+in APPPATH/Views/Master/Zone/ViewZone.php on line 56.
+ 1 APPPATH/Views/Master/Zone/ViewZone.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$login_id', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Master/Zone/ViewZone.php', 56)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Master/Zone/ViewZone.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Zone/ViewZone', [], true)
+ 5 APPPATH/Controllers/Master/MasterController.php(31): view('Master/Zone/ViewZone', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:21:08 --> ErrorException: Undefined property: stdClass::$login_id
+[Method: GET, Route: ViewZone]
+in APPPATH/Views/Master/Zone/ViewZone.php on line 56.
+ 1 APPPATH/Views/Master/Zone/ViewZone.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$login_id', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Master/Zone/ViewZone.php', 56)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Master/Zone/ViewZone.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Zone/ViewZone', [], true)
+ 5 APPPATH/Controllers/Master/MasterController.php(31): view('Master/Zone/ViewZone', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:21:09 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: ViewZone]
+in APPPATH/Views/Master/Zone/ViewZone.php on line 58.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Zone/ViewZone', [], true)
+ 4 APPPATH/Controllers/Master/MasterController.php(31): view('Master/Zone/ViewZone', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:21:09 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: ViewZone]
+in APPPATH/Views/Master/Zone/ViewZone.php on line 58.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Zone/ViewZone', [], true)
+ 4 APPPATH/Controllers/Master/MasterController.php(31): view('Master/Zone/ViewZone', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:21:41 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: ViewZone]
+in APPPATH/Views/Master/Zone/ViewZone.php on line 58.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Zone/ViewZone', [], true)
+ 4 APPPATH/Controllers/Master/MasterController.php(31): view('Master/Zone/ViewZone', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:21:42 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: ViewZone]
+in APPPATH/Views/Master/Zone/ViewZone.php on line 58.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Zone/ViewZone', [], true)
+ 4 APPPATH/Controllers/Master/MasterController.php(31): view('Master/Zone/ViewZone', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:32:18 --> ErrorException: Undefined variable $list
+[Method: GET, Route: ZoneForm]
+in APPPATH/Views/Master/Zone/ZoneForm.php on line 37.
+ 1 APPPATH/Views/Master/Zone/ZoneForm.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Master/Zone/ZoneForm.php', 37)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Master/Zone/ZoneForm.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Zone/ZoneForm', [], true)
+ 5 APPPATH/Controllers/Master/MasterController.php(23): view('Master/Zone/ZoneForm')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ZoneForm()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-16 06:29:28 --> mysqli_sql_exception: Unknown column 'is_deleted' in 'where clause' in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-16 06:29:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'is_deleted' in 'where clause'
+[Method: GET, Route: ViewZone]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 2 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 06:29:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'is_deleted' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 3 APPPATH/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 4 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 06:29:28 --> [Caused by] mysqli_sql_exception: Unknown column 'is_deleted' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 4 APPPATH/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 5 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-16 06:29:31 --> mysqli_sql_exception: Unknown column 'is_deleted' in 'where clause' in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-16 06:29:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'is_deleted' in 'where clause'
+[Method: GET, Route: ViewZone]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 2 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 06:29:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'is_deleted' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 3 APPPATH/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 4 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 06:29:31 --> [Caused by] mysqli_sql_exception: Unknown column 'is_deleted' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 4 APPPATH/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 5 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-16 06:30:30 --> mysqli_sql_exception: Unknown column 'is_deleted' in 'where clause' in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-16 06:30:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'is_deleted' in 'where clause'
+[Method: GET, Route: ViewZone]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 2 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 06:30:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'is_deleted' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 3 APPPATH/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 4 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 06:30:30 --> [Caused by] mysqli_sql_exception: Unknown column 'is_deleted' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 4 APPPATH/Models/Master/MasterModel.php(11): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_zone` WHERE is_deleted = 0 order by id desc')
+ 5 APPPATH/Controllers/Master/MasterController.php(36): App\Models\Master\MasterModel->getZoneData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewZone()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 07:19:18 --> CodeIgniter\Validation\Exceptions\ValidationException: "min:10" is not a valid rule.
+[Method: POST, Route: create_owner]
+in SYSTEMPATH/Validation/Validation.php on line 347.
+ 1 SYSTEMPATH/Validation/Validation.php(347): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min:10')
+ 2 SYSTEMPATH/Validation/Validation.php(203): CodeIgniter\Validation\Validation->processRules('0', '0', null, [...], [...], '0')
+ 3 SYSTEMPATH/Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/Master/MasterController.php(132): CodeIgniter\Controller->validate([...], [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_owner()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 07:21:57 --> CodeIgniter\Validation\Exceptions\ValidationException: "min:10" is not a valid rule.
+[Method: POST, Route: create_owner]
+in SYSTEMPATH/Validation/Validation.php on line 347.
+ 1 SYSTEMPATH/Validation/Validation.php(347): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('min:10')
+ 2 SYSTEMPATH/Validation/Validation.php(203): CodeIgniter\Validation\Validation->processRules('mobile', 'mobile', '2222', [...], [...], 'mobile')
+ 3 SYSTEMPATH/Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/Master/MasterController.php(131): CodeIgniter\Controller->validate([...], [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_owner()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 07:22:48 --> CodeIgniter\Validation\Exceptions\ValidationException: "digits:10" is not a valid rule.
+[Method: POST, Route: create_owner]
+in SYSTEMPATH/Validation/Validation.php on line 347.
+ 1 SYSTEMPATH/Validation/Validation.php(347): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('digits:10')
+ 2 SYSTEMPATH/Validation/Validation.php(203): CodeIgniter\Validation\Validation->processRules('mobile', 'mobile', '2222', [...], [...], 'mobile')
+ 3 SYSTEMPATH/Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/Master/MasterController.php(130): CodeIgniter\Controller->validate([...], [...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_owner()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 07:33:55 --> ErrorException: Undefined array key "ID"
+[Method: GET, Route: updateOwner]
+in APPPATH/Controllers/Master/MasterController.php on line 99.
+ 1 APPPATH/Controllers/Master/MasterController.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 99)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateOwner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 07:34:11 --> ErrorException: Undefined array key "ID"
+[Method: GET, Route: updateOwner]
+in APPPATH/Controllers/Master/MasterController.php on line 99.
+ 1 APPPATH/Controllers/Master/MasterController.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 99)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateOwner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:38:19 --> ErrorException: Undefined array key "ID"
+[Method: GET, Route: updateOwner]
+in APPPATH/Controllers/Master/MasterController.php on line 101.
+ 1 APPPATH/Controllers/Master/MasterController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateOwner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:40:22 --> ErrorException: Undefined array key "ID"
+[Method: GET, Route: updateOwner]
+in APPPATH/Controllers/Master/MasterController.php on line 101.
+ 1 APPPATH/Controllers/Master/MasterController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateOwner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:40:33 --> ErrorException: Undefined array key "ID"
+[Method: GET, Route: updateOwner]
+in APPPATH/Controllers/Master/MasterController.php on line 101.
+ 1 APPPATH/Controllers/Master/MasterController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateOwner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:40:55 --> ErrorException: Undefined array key "ID"
+[Method: GET, Route: updateOwner]
+in APPPATH/Controllers/Master/MasterController.php on line 101.
+ 1 APPPATH/Controllers/Master/MasterController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateOwner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:40:56 --> ErrorException: Undefined array key "ID"
+[Method: GET, Route: updateOwner]
+in APPPATH/Controllers/Master/MasterController.php on line 101.
+ 1 APPPATH/Controllers/Master/MasterController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateOwner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:41:03 --> ErrorException: Undefined array key "ID"
+[Method: GET, Route: updateOwner]
+in APPPATH/Controllers/Master/MasterController.php on line 101.
+ 1 APPPATH/Controllers/Master/MasterController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateOwner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:41:27 --> ErrorException: Undefined array key "ID"
+[Method: GET, Route: updateOwner]
+in APPPATH/Controllers/Master/MasterController.php on line 101.
+ 1 APPPATH/Controllers/Master/MasterController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateOwner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:41:28 --> ErrorException: Undefined array key "ID"
+[Method: GET, Route: updateOwner]
+in APPPATH/Controllers/Master/MasterController.php on line 101.
+ 1 APPPATH/Controllers/Master/MasterController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateOwner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:41:30 --> ErrorException: Undefined array key "ID"
+[Method: GET, Route: updateOwner]
+in APPPATH/Controllers/Master/MasterController.php on line 101.
+ 1 APPPATH/Controllers/Master/MasterController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 101)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateOwner()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-16 08:55:59 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_developer' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Master/MasterModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php(183): App\Models\Master\MasterModel->getDeveloperData()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewDeveloper()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-16 08:55:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_developer' doesn't exist
+[Method: GET, Route: ViewDeveloper]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_developer` WHERE isdeleted = 0 order by id desc')
+ 2 APPPATH/Controllers/Master/MasterController.php(183): App\Models\Master\MasterModel->getDeveloperData()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewDeveloper()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:55:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_developer' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_developer` WHERE isdeleted = 0 order by id desc')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_developer` WHERE isdeleted = 0 order by id desc')
+ 3 APPPATH/Models/Master/MasterModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_developer` WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Controllers/Master/MasterController.php(183): App\Models\Master\MasterModel->getDeveloperData()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewDeveloper()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:55:59 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_developer' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `tbl_developer` WHERE isdeleted = 0 order by id desc', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_developer` WHERE isdeleted = 0 order by id desc')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_developer` WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Models/Master/MasterModel.php(39): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_developer` WHERE isdeleted = 0 order by id desc')
+ 5 APPPATH/Controllers/Master/MasterController.php(183): App\Models\Master\MasterModel->getDeveloperData()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewDeveloper()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 14:27:02 --> ErrorException: Undefined variable $OwnerData
+[Method: GET, Route: ViewDeveloper]
+in APPPATH/Views/Master/Developer/ViewDeveloper.php on line 50.
+ 1 APPPATH/Views/Master/Developer/ViewDeveloper.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $OwnerData', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Master/Developer/ViewDeveloper.php', 50)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Master/Developer/ViewDeveloper.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Developer/ViewDeveloper', [], true)
+ 5 APPPATH/Controllers/Master/MasterController.php(184): view('Master/Developer/ViewDeveloper', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewDeveloper()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:58:38 --> ErrorException: Undefined variable $developerData
+[Method: POST, Route: create_developer]
+in APPPATH/Controllers/Master/MasterController.php on line 216.
+ 1 APPPATH/Controllers/Master/MasterController.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $developerData', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 216)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_developer()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 08:59:04 --> ErrorException: Undefined variable $developermsg
+[Method: POST, Route: create_developer]
+in APPPATH/Controllers/Master/MasterController.php on line 217.
+ 1 APPPATH/Controllers/Master/MasterController.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $developermsg', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 217)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_developer()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 09:21:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Society/ViewSociety.php"
+[Method: GET, Route: ViewSociety]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Society/ViewSociety.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Society/ViewSociety', [], true)
+ 3 APPPATH/Controllers/Master/MasterController.php(255): view('Master/Society/ViewSociety', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewSociety()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 09:27:36 --> ErrorException: Undefined variable $societymsg
+[Method: POST, Route: create_society]
+in APPPATH/Controllers/Master/MasterController.php on line 300.
+ 1 APPPATH/Controllers/Master/MasterController.php(300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $societymsg', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 300)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_society()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 09:57:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Purchaser/ViewPurchaserr.php"
+[Method: GET, Route: ViewPurchaser]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Purchaser/ViewPurchaserr.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Purchaser/ViewPurchaserr', [], true)
+ 3 APPPATH/Controllers/Master/MasterController.php(397): view('Master/Purchaser/ViewPurchaserr', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewPurchaser()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 09:57:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Purchaser/ViewPurchaser.php"
+[Method: GET, Route: ViewPurchaser]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Purchaser/ViewPurchaser.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Purchaser/ViewPurchaser', [], true)
+ 3 APPPATH/Controllers/Master/MasterController.php(397): view('Master/Purchaser/ViewPurchaser', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewPurchaser()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 09:57:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Purchaser/ViewPurchaser.php"
+[Method: GET, Route: ViewPurchaser]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Purchaser/ViewPurchaser.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Purchaser/ViewPurchaser', [], true)
+ 3 APPPATH/Controllers/Master/MasterController.php(397): view('Master/Purchaser/ViewPurchaser', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewPurchaser()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 15:28:14 --> ErrorException: Undefined variable $PurchasarData
+[Method: GET, Route: ViewPurchaser]
+in APPPATH/Views/Master/Purchaser/ViewPurchaser.php on line 50.
+ 1 APPPATH/Views/Master/Purchaser/ViewPurchaser.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $PurchasarData', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Master/Purchaser/ViewPurchaser.php', 50)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Master/Purchaser/ViewPurchaser.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Purchaser/ViewPurchaser', [], true)
+ 5 APPPATH/Controllers/Master/MasterController.php(397): view('Master/Purchaser/ViewPurchaser', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->ViewPurchaser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-16 10:01:30 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_Purchaser' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php(429): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Purchaser()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-16 10:01:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_Purchaser' doesn't exist
+[Method: POST, Route: create_purchaser]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (:id:, :name:, :mobile:)', [...], false)
+ 2 APPPATH/Controllers/Master/MasterController.php(429): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Purchaser()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:01:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_Purchaser' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (\'\', \'Purchaser\', \'2222222222\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (\'\', \'Purchaser\', \'2222222222\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (:id:, :name:, :mobile:)', [...], false)
+ 4 APPPATH/Controllers/Master/MasterController.php(429): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Purchaser()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:01:30 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_Purchaser' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (\'\', \'Purchaser\', \'2222222222\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (\'\', \'Purchaser\', \'2222222222\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (\'\', \'Purchaser\', \'2222222222\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (:id:, :name:, :mobile:)', [...], false)
+ 5 APPPATH/Controllers/Master/MasterController.php(429): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Purchaser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-16 10:02:14 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_Purchaser' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php(429): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Purchaser()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-16 10:02:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_Purchaser' doesn't exist
+[Method: POST, Route: create_purchaser]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (:id:, :name:, :mobile:)', [...], false)
+ 2 APPPATH/Controllers/Master/MasterController.php(429): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Purchaser()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:02:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_Purchaser' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (\'\', \'Purchaser\', \'2222222222\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (\'\', \'Purchaser\', \'2222222222\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (:id:, :name:, :mobile:)', [...], false)
+ 4 APPPATH/Controllers/Master/MasterController.php(429): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Purchaser()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:02:14 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_Purchaser' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (\'\', \'Purchaser\', \'2222222222\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (\'\', \'Purchaser\', \'2222222222\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (\'\', \'Purchaser\', \'2222222222\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_Purchaser` (`id`, `name`, `mobile`) VALUES (:id:, :name:, :mobile:)', [...], false)
+ 5 APPPATH/Controllers/Master/MasterController.php(429): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Purchaser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-16 10:05:56 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_Purchaser' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('UPDATE `tbl_Pur...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_Pur...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_Pur...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_Pur...', Array, false)
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php(443): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Purchaser()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-16 10:05:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_Purchaser' doesn't exist
+[Method: POST, Route: create_purchaser]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_Purchaser` SET `id` = :id.1:, `name` = :name:, `mobile` = :mobile:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Controllers/Master/MasterController.php(443): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Purchaser()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:05:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_Purchaser' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_Purchaser` SET `id` = \'2\', `name` = \'Purchase\', `mobile` = \'3333366666\'
+WHERE `id` = \'2\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_Purchaser` SET `id` = \'2\', `name` = \'Purchase\', `mobile` = \'3333366666\'
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_Purchaser` SET `id` = :id.1:, `name` = :name:, `mobile` = :mobile:
+WHERE `id` = :id:', [...], false)
+ 4 APPPATH/Controllers/Master/MasterController.php(443): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Purchaser()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:05:56 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_Purchaser' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('UPDATE `tbl_Purchaser` SET `id` = \'2\', `name` = \'Purchase\', `mobile` = \'3333366666\'
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_Purchaser` SET `id` = \'2\', `name` = \'Purchase\', `mobile` = \'3333366666\'
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_Purchaser` SET `id` = \'2\', `name` = \'Purchase\', `mobile` = \'3333366666\'
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_Purchaser` SET `id` = :id.1:, `name` = :name:, `mobile` = :mobile:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH/Controllers/Master/MasterController.php(443): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Purchaser()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-16 10:06:50 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_purchasar' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('UPDATE `tbl_pur...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pur...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pur...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pur...', Array, false)
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php(87): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->deleteRec()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-16 10:06:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_purchasar' doesn't exist
+[Method: POST, Route: deleteRec]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_purchasar` SET `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Controllers/Master/MasterController.php(87): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->deleteRec()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:06:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_purchasar' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_purchasar` SET `isdeleted` = 1
+WHERE `id` = \'2\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_purchasar` SET `isdeleted` = 1
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_purchasar` SET `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 4 APPPATH/Controllers/Master/MasterController.php(87): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->deleteRec()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:06:50 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_purchasar' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('UPDATE `tbl_purchasar` SET `isdeleted` = 1
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_purchasar` SET `isdeleted` = 1
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_purchasar` SET `isdeleted` = 1
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_purchasar` SET `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH/Controllers/Master/MasterController.php(87): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->deleteRec()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-16 10:06:55 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_purchasar' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('UPDATE `tbl_pur...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_pur...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_pur...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_pur...', Array, false)
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php(87): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->deleteRec()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-16 10:06:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_purchasar' doesn't exist
+[Method: POST, Route: deleteRec]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_purchasar` SET `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Controllers/Master/MasterController.php(87): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->deleteRec()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:06:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_purchasar' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_purchasar` SET `isdeleted` = 1
+WHERE `id` = \'2\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_purchasar` SET `isdeleted` = 1
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_purchasar` SET `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 4 APPPATH/Controllers/Master/MasterController.php(87): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->deleteRec()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:06:55 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_purchasar' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('UPDATE `tbl_purchasar` SET `isdeleted` = 1
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_purchasar` SET `isdeleted` = 1
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_purchasar` SET `isdeleted` = 1
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_purchasar` SET `isdeleted` = :isdeleted:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH/Controllers/Master/MasterController.php(87): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->deleteRec()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:20:11 --> ErrorException: Undefined variable $AssignorData
+[Method: POST, Route: create_assignor]
+in APPPATH/Controllers/Master/MasterController.php on line 500.
+ 1 APPPATH/Controllers/Master/MasterController.php(500): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AssignorData', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 500)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_Assignor()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:37:34 --> LogicException: No validation rules for the placeholder: "id". You must set the validation rules for the field. See <https://codeigniter4.github.io/userguide/libraries/validation.html#validation-placeholders>.
+[Method: POST, Route: create_owner]
+in SYSTEMPATH/Validation/Validation.php on line 805.
+ 1 SYSTEMPATH/Validation/Validation.php(157): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH/Controllers/Master/MasterController.php(139): CodeIgniter\Controller->validate([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_owner()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:37:44 --> LogicException: No validation rules for the placeholder: "id". You must set the validation rules for the field. See <https://codeigniter4.github.io/userguide/libraries/validation.html#validation-placeholders>.
+[Method: POST, Route: create_owner]
+in SYSTEMPATH/Validation/Validation.php on line 805.
+ 1 SYSTEMPATH/Validation/Validation.php(157): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH/Controllers/Master/MasterController.php(139): CodeIgniter\Controller->validate([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_owner()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:39:20 --> LogicException: No validation rules for the placeholder: "id". You must set the validation rules for the field. See <https://codeigniter4.github.io/userguide/libraries/validation.html#validation-placeholders>.
+[Method: POST, Route: create_owner]
+in SYSTEMPATH/Validation/Validation.php on line 805.
+ 1 SYSTEMPATH/Validation/Validation.php(157): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH/Controllers/Master/MasterController.php(139): CodeIgniter\Controller->validate([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_owner()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:40:01 --> LogicException: No validation rules for the placeholder: "id". You must set the validation rules for the field. See <https://codeigniter4.github.io/userguide/libraries/validation.html#validation-placeholders>.
+[Method: POST, Route: create_owner]
+in SYSTEMPATH/Validation/Validation.php on line 805.
+ 1 SYSTEMPATH/Validation/Validation.php(157): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH/Controllers/Master/MasterController.php(139): CodeIgniter\Controller->validate([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_owner()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:40:04 --> LogicException: No validation rules for the placeholder: "id". You must set the validation rules for the field. See <https://codeigniter4.github.io/userguide/libraries/validation.html#validation-placeholders>.
+[Method: POST, Route: create_owner]
+in SYSTEMPATH/Validation/Validation.php on line 805.
+ 1 SYSTEMPATH/Validation/Validation.php(157): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH/Controllers/Master/MasterController.php(139): CodeIgniter\Controller->validate([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_owner()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:41:05 --> LogicException: No validation rules for the placeholder: "id". You must set the validation rules for the field. See <https://codeigniter4.github.io/userguide/libraries/validation.html#validation-placeholders>.
+[Method: POST, Route: create_owner]
+in SYSTEMPATH/Validation/Validation.php on line 805.
+ 1 SYSTEMPATH/Validation/Validation.php(157): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH/Controllers/Master/MasterController.php(139): CodeIgniter\Controller->validate([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_owner()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:41:41 --> LogicException: No validation rules for the placeholder: "id". You must set the validation rules for the field. See <https://codeigniter4.github.io/userguide/libraries/validation.html#validation-placeholders>.
+[Method: POST, Route: create_owner]
+in SYSTEMPATH/Validation/Validation.php on line 805.
+ 1 SYSTEMPATH/Validation/Validation.php(157): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH/Controllers/Master/MasterController.php(140): CodeIgniter\Controller->validate([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_owner()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:41:45 --> LogicException: No validation rules for the placeholder: "id". You must set the validation rules for the field. See <https://codeigniter4.github.io/userguide/libraries/validation.html#validation-placeholders>.
+[Method: POST, Route: create_owner]
+in SYSTEMPATH/Validation/Validation.php on line 805.
+ 1 SYSTEMPATH/Validation/Validation.php(157): CodeIgniter\Validation\Validation->fillPlaceholders([...], [...])
+ 2 SYSTEMPATH/Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH/Controllers/Master/MasterController.php(140): CodeIgniter\Controller->validate([...], [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->create_owner()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:57:18 --> ErrorException: Undefined variable $MasterModel
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 600.
+ 1 APPPATH/Controllers/Master/MasterController.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MasterModel', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:57:22 --> ErrorException: Undefined variable $MasterModel
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 600.
+ 1 APPPATH/Controllers/Master/MasterController.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MasterModel', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:57:26 --> ErrorException: Undefined variable $MasterModel
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 600.
+ 1 APPPATH/Controllers/Master/MasterController.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MasterModel', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 10:58:40 --> ErrorException: Undefined variable $MasterModel
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 600.
+ 1 APPPATH/Controllers/Master/MasterController.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MasterModel', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:00:08 --> ErrorException: Undefined variable $MasterModel
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 600.
+ 1 APPPATH/Controllers/Master/MasterController.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MasterModel', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:00:49 --> ErrorException: Undefined variable $MasterModel
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 600.
+ 1 APPPATH/Controllers/Master/MasterController.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MasterModel', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:01:23 --> ErrorException: Undefined variable $MasterModel
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 600.
+ 1 APPPATH/Controllers/Master/MasterController.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $MasterModel', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 600)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:19:39 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:22:42 --> Error: Cannot use [] for reading
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:22:42 --> Error: Cannot use [] for reading
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:22:43 --> Error: Cannot use [] for reading
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:22:44 --> Error: Cannot use [] for reading
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:26:21 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:26:22 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:26:24 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:26:24 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:26:25 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:26:25 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:26:25 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:26:27 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:26:27 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:26:27 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:26:27 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:27:40 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:27:40 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:27:41 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:27:54 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:27:55 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:27:55 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:27:55 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:28:57 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:28:57 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-16 11:28:57 --> ErrorException: Array to string conversion
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 603.
+ 1 APPPATH/Controllers/Master/MasterController.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 603)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

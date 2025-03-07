@@ -1,0 +1,855 @@
+CRITICAL - 2025-01-13 09:42:18 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH/Views/login.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 09:43:17 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH/Views/login.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 09:43:18 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH/Views/login.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 09:48:38 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH/Views/login.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 09:48:39 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH/Views/login.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 09:48:52 --> Error: Undefined constant "php"
+[Method: GET, Route: /]
+in APPPATH/Views/login.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 09:48:53 --> Error: Undefined constant "php"
+[Method: GET, Route: /]
+in APPPATH/Views/login.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 09:48:54 --> Error: Undefined constant "php"
+[Method: GET, Route: /]
+in APPPATH/Views/login.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:11:20 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH/Views/login.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:11:20 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH/Views/login.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:11:54 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:11:55 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:11:55 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:12:05 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:12:26 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:12:27 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:12:41 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:12:42 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:12:43 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:12:45 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:13:00 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:13:03 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:13:04 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:13:05 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:13:05 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:13:05 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:13:05 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:13:05 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:16:42 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH/Views/login.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Home.php(10): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:17:11 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH/Views/login.php on line 41.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Home.php(10): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:17:46 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:17:47 --> Error: Class "App\Controllers\LoginModel" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:22:27 --> Error: Class "App\Models\Login\LoginModel" not found
+[Method: POST, Route: signIn]
+in APPPATH/Controllers/Login/LoginController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Login\LoginController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:23:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Frontend/login.php"
+[Method: POST, Route: signIn]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Frontend/login.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Frontend/login', [], true)
+ 3 APPPATH/Controllers/Login/LoginController.php(129): view('Frontend/login', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 10:30:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:187
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(187): mysqli->real_connect('localhost', '', 'Mudrank@2025', '', 3306, '', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-13 10:30:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+[Method: POST, Route: signIn]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 3 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 10:30:55 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.login_master' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-13 10:30:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.login_master' doesn't exist
+[Method: POST, Route: signIn]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 2 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:30:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.login_master' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login_master`
+WHERE `username` = \'eeeee\'
+AND `password` = \'111\'
+AND `isdeleted` = \'0\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login_master`
+WHERE `username` = \'eeeee\'
+AND `password` = \'111\'
+AND `isdeleted` = \'0\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 4 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:30:55 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.login_master' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *
+FROM `login_master`
+WHERE `username` = \'eeeee\'
+AND `password` = \'111\'
+AND `isdeleted` = \'0\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login_master`
+WHERE `username` = \'eeeee\'
+AND `password` = \'111\'
+AND `isdeleted` = \'0\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login_master`
+WHERE `username` = \'eeeee\'
+AND `password` = \'111\'
+AND `isdeleted` = \'0\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 5 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 10:31:28 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.login_master' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-13 10:31:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.login_master' doesn't exist
+[Method: POST, Route: signIn]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 2 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:31:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.login_master' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login_master`
+WHERE `username` = \'eeeee\'
+AND `password` = \'111\'
+AND `isdeleted` = \'0\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login_master`
+WHERE `username` = \'eeeee\'
+AND `password` = \'111\'
+AND `isdeleted` = \'0\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 4 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:31:28 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.login_master' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *
+FROM `login_master`
+WHERE `username` = \'eeeee\'
+AND `password` = \'111\'
+AND `isdeleted` = \'0\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login_master`
+WHERE `username` = \'eeeee\'
+AND `password` = \'111\'
+AND `isdeleted` = \'0\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login_master`
+WHERE `username` = \'eeeee\'
+AND `password` = \'111\'
+AND `isdeleted` = \'0\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login_master`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `isdeleted` = :isdeleted:', [...], false)
+ 5 APPPATH/Models/Login/LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Login/LoginController.php(48): App\Models\Login\LoginModel->checkUsernamePass()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 10:32:17 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_title' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Login/LoginModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Login/LoginController.php(49): App\Models\Login\LoginModel->getTitle()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-13 10:32:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_title' doesn't exist
+[Method: POST, Route: signIn]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Login/LoginModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_title`')
+ 2 APPPATH/Controllers/Login/LoginController.php(49): App\Models\Login\LoginModel->getTitle()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:32:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_title' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_title`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_title`')
+ 3 APPPATH/Models/Login/LoginModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_title`')
+ 4 APPPATH/Controllers/Login/LoginController.php(49): App\Models\Login\LoginModel->getTitle()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:32:17 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_title' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `tbl_title`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_title`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_title`')
+ 4 APPPATH/Models/Login/LoginModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_title`')
+ 5 APPPATH/Controllers/Login/LoginController.php(49): App\Models\Login\LoginModel->getTitle()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 10:33:37 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_title' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Login/LoginModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Login/LoginController.php(49): App\Models\Login\LoginModel->getTitle()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-13 10:33:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_title' doesn't exist
+[Method: POST, Route: signIn]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Login/LoginModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_title`')
+ 2 APPPATH/Controllers/Login/LoginController.php(49): App\Models\Login\LoginModel->getTitle()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:33:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_title' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_title`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_title`')
+ 3 APPPATH/Models/Login/LoginModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_title`')
+ 4 APPPATH/Controllers/Login/LoginController.php(49): App\Models\Login\LoginModel->getTitle()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:33:37 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_title' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `tbl_title`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_title`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_title`')
+ 4 APPPATH/Models/Login/LoginModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_title`')
+ 5 APPPATH/Controllers/Login/LoginController.php(49): App\Models\Login\LoginModel->getTitle()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 10:35:42 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_title' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Login/LoginModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Login/LoginController.php(49): App\Models\Login\LoginModel->getTitle()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-13 10:35:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_title' doesn't exist
+[Method: POST, Route: signIn]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Login/LoginModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_title`')
+ 2 APPPATH/Controllers/Login/LoginController.php(49): App\Models\Login\LoginModel->getTitle()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:35:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_title' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_title`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_title`')
+ 3 APPPATH/Models/Login/LoginModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_title`')
+ 4 APPPATH/Controllers/Login/LoginController.php(49): App\Models\Login\LoginModel->getTitle()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:35:42 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_title' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM `tbl_title`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `tbl_title`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `tbl_title`')
+ 4 APPPATH/Models/Login/LoginModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `tbl_title`')
+ 5 APPPATH/Controllers/Login/LoginController.php(49): App\Models\Login\LoginModel->getTitle()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 10:39:50 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_current_year' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT year FRO...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT year FRO...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT year FRO...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Login/LoginModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT year FRO...')
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Login/LoginController.php(55): App\Models\Login\LoginModel->getCurrentYear()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-13 10:39:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_current_year' doesn't exist
+[Method: POST, Route: signIn]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Login/LoginModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 2 APPPATH/Controllers/Login/LoginController.php(55): App\Models\Login\LoginModel->getCurrentYear()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:39:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_current_year' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 3 APPPATH/Models/Login/LoginModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 4 APPPATH/Controllers/Login/LoginController.php(55): App\Models\Login\LoginModel->getCurrentYear()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:39:50 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_current_year' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT year FROM `tbl_current_year` WHERE selected=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 4 APPPATH/Models/Login/LoginModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 5 APPPATH/Controllers/Login/LoginController.php(55): App\Models\Login\LoginModel->getCurrentYear()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-13 10:40:25 --> mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_current_year' doesn't exist in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT year FRO...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT year FRO...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT year FRO...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Models/Login/LoginModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT year FRO...')
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Login/LoginController.php(55): App\Models\Login\LoginModel->getCurrentYear()
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-13 10:40:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_current_year' doesn't exist
+[Method: POST, Route: signIn]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Login/LoginModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 2 APPPATH/Controllers/Login/LoginController.php(55): App\Models\Login\LoginModel->getCurrentYear()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:40:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_mudrank.tbl_current_year' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 3 APPPATH/Models/Login/LoginModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 4 APPPATH/Controllers/Login/LoginController.php(55): App\Models\Login\LoginModel->getCurrentYear()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 10:40:25 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_mudrank.tbl_current_year' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT year FROM `tbl_current_year` WHERE selected=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 4 APPPATH/Models/Login/LoginModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT year FROM `tbl_current_year` WHERE selected=1')
+ 5 APPPATH/Controllers/Login/LoginController.php(55): App\Models\Login\LoginModel->getCurrentYear()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login\LoginController->signIn()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login\LoginController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 12:21:51 --> Error: Class "App\Models\Development\DevelopmentModel" not found
+[Method: GET, Route: TenantForm]
+in APPPATH/Controllers/Development/DevelopmentController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Development\DevelopmentController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 12:24:11 --> Error: Class "App\Controllers\Development\DevModel" not found
+[Method: GET, Route: TenantForm]
+in APPPATH/Controllers/Development/DevelopmentController.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->TenantForm()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-13 12:24:41 --> ErrorException: Undefined variable $data
+[Method: GET, Route: TenantForm]
+in APPPATH/Controllers/Development/DevelopmentController.php on line 20.
+ 1 APPPATH/Controllers/Development/DevelopmentController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Development/DevelopmentController.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->TenantForm()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

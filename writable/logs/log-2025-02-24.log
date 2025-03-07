@@ -1,0 +1,1073 @@
+CRITICAL - 2025-02-24 16:15:44 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:44 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:44 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:44 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:45 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "store_file;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: store_file;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('store_file;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('store_file;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:45 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:45 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:45 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:45 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Designation;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Designation;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Designation;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Designation;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 21:45:46 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: File]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/File/view.php(14): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/view.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('File/view', [], true)
+ 9 APPPATH/Controllers/File/FileController.php(25): view('File/view', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Designation;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Designation;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Designation;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Designation;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;invalidLoginDs:Provide"
+[Method: GET, Route: adminDashboard;invalidLoginDs:Provide]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;invalidLoginDs:Provide')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;invalidLoginDs:Provide')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "store_role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: store_role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('store_role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('store_role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Employee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Employee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Employee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Employee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 21:45:47 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: File]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/File/view.php(14): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/view.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('File/view', [], true)
+ 9 APPPATH/Controllers/File/FileController.php(25): view('File/view', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:47 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Vibhag;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;invalidLoginDs:Provide"
+[Method: GET, Route: adminDashboard;invalidLoginDs:Provide]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;invalidLoginDs:Provide')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;invalidLoginDs:Provide')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddEmployee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddEmployee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddEmployee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddEmployee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('RejectionReason;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 21:45:48 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(25): view('Dashboard/adminDashboard', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:48 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:15:58 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddEmployee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddEmployee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddEmployee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddEmployee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Employee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Employee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Employee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Employee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "store_role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: store_role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('store_role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('store_role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddDesig;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddDesig;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddDesig;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddDesig;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "store_emp;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: store_emp;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('store_emp;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('store_emp;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "store_emp;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: store_emp;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('store_emp;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('store_emp;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-02-24 16:16:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '??[?z?Ú™?vh??????f?{?z?r??5
+??z{Xy???M?' at line 1 in /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM t...', 0)
+#1 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Controllers/Master/MasterController.php(74): App\Models\Master\MasterModel->getData('tbl_departments', '2\x08\x9D\xB3[\xACz\xB9\xDA\x99\xEB\x1Avh\xA7...')
+#5 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateDept()
+#6 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '??[?z?Ú™?vh??????f?{?z?r??5
+??z{Xy???M?' at line 1
+[Method: GET, Route: updateDept]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_departments WHERE id = 2³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 2 APPPATH/Controllers/Master/MasterController.php(74): App\Models\Master\MasterModel->getData('tbl_departments', '2³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateDept()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '??[?z?Ú™?vh??????f?{?z?r??5
+??z{Xy???M?' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_departments WHERE id = 2³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_departments WHERE id = 2³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 3 APPPATH/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_departments WHERE id = 2³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 4 APPPATH/Controllers/Master/MasterController.php(74): App\Models\Master\MasterModel->getData('tbl_departments', '2³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateDept()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '??[?z?Ú™?vh??????f?{?z?r??5
+??z{Xy???M?' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM tbl_departments WHERE id = 2³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_departments WHERE id = 2³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_departments WHERE id = 2³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 4 APPPATH/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_departments WHERE id = 2³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 5 APPPATH/Controllers/Master/MasterController.php(74): App\Models\Master\MasterModel->getData('tbl_departments', '2³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateDept()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Department;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 21:46:02 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(25): view('Dashboard/adminDashboard', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('adminDashboard;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 21:46:02 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: File]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/File/view.php(14): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/view.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('File/view', [], true)
+ 9 APPPATH/Controllers/File/FileController.php(25): view('File/view', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Employee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Employee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Employee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Employee;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 21:46:03 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: AddFile]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/File/add.php(14): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/add.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('File/add', [], true)
+ 9 APPPATH/Controllers/File/FileController.php(30): view('File/add', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->AddFile()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-02-24 16:16:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '??[?z?Ú™?vh??????f?{?z?r??5
+??z{Xy???M?' at line 1 in /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM t...', 0)
+#1 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Controllers/Master/MasterController.php(74): App\Models\Master\MasterModel->getData('tbl_departments', '1\x08\x9D\xB3[\xACz\xB9\xDA\x99\xEB\x1Avh\xA7...')
+#5 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateDept()
+#6 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-02-24 16:16:03 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '??[?z?Ú™?vh??????f?{?z?r??5
+??z{Xy???M?' at line 1
+[Method: GET, Route: updateDept]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 2 APPPATH/Controllers/Master/MasterController.php(74): App\Models\Master\MasterModel->getData('tbl_departments', '1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateDept()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '??[?z?Ú™?vh??????f?{?z?r??5
+??z{Xy???M?' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 3 APPPATH/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 4 APPPATH/Controllers/Master/MasterController.php(74): App\Models\Master\MasterModel->getData('tbl_departments', '1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateDept()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:03 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '??[?z?Ú™?vh??????f?{?z?r??5
+??z{Xy???M?' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 4 APPPATH/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 5 APPPATH/Controllers/Master/MasterController.php(74): App\Models\Master\MasterModel->getData('tbl_departments', '1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateDept()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-02-24 16:16:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '??[?z?Ú™?vh??????f?{?z?r??5
+??z{Xy???M?' at line 1 in /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM t...', 0)
+#1 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Controllers/Master/MasterController.php(74): App\Models\Master\MasterModel->getData('tbl_departments', '1\x08\x9D\xB3[\xACz\xB9\xDA\x99\xEB\x1Avh\xA7...')
+#5 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateDept()
+#6 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+#7 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-02-24 16:16:19 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '??[?z?Ú™?vh??????f?{?z?r??5
+??z{Xy???M?' at line 1
+[Method: GET, Route: updateDept]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 2 APPPATH/Controllers/Master/MasterController.php(74): App\Models\Master\MasterModel->getData('tbl_departments', '1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateDept()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '??[?z?Ú™?vh??????f?{?z?r??5
+??z{Xy???M?' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 3 APPPATH/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 4 APPPATH/Controllers/Master/MasterController.php(74): App\Models\Master\MasterModel->getData('tbl_departments', '1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateDept()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:19 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '??[?z?Ú™?vh??????f?{?z?r??5
+??z{Xy???M?' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 4 APPPATH/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_departments WHERE id = 1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸ ')
+ 5 APPPATH/Controllers/Master/MasterController.php(74): App\Models\Master\MasterModel->getData('tbl_departments', '1³[¬z¹Ú™ëvh§©ž±§fŠ{¬z»r¥ë5
+êëz{XyªìÛM¸')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->updateDept()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:21 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('File;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:21 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "store_file;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: store_file;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('store_file;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('store_file;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:16:21 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('store_dept;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:17:20 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('Role;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:17:55 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddDesig;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddDesig;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddDesig;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddDesig;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:19:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddFile;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-24 16:21:08 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024"
+[Method: GET, Route: AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('AddDepartment;ids:1;usernames:admin;names:admin;user_types:1;Current_Years:2024')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
