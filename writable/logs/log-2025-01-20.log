@@ -1,0 +1,371 @@
+CRITICAL - 2025-01-20 02:28:38 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: AddEmployee]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Master/Employee/add.php(14): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Master/Employee/add.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Employee/add', [], true)
+ 9 APPPATH/Controllers/Master/EmployeeController.php(31): view('Master/Employee/add', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\EmployeeController->AddEmployee()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\EmployeeController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 04:40:13 --> Error: Class "App\Controllers\File\MasterModel" not found
+[Method: GET, Route: File]
+in APPPATH/Controllers/File/FileController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\File\FileController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-20 04:40:35 --> mysqli_sql_exception: Table 'sitsolutionsco_fts.tbl_file' doesn't exist in /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM t...', 0)
+#1 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Controllers/File/FileController.php(24): App\Models\Master\MasterModel->getAllData('tbl_file')
+#5 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+#6 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+#7 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-20 04:40:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.tbl_file' doesn't exist
+[Method: GET, Route: File]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 2 APPPATH/Controllers/File/FileController.php(24): App\Models\Master\MasterModel->getAllData('tbl_file')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 04:40:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sitsolutionsco_fts.tbl_file' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 3 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Controllers/File/FileController.php(24): App\Models\Master\MasterModel->getAllData('tbl_file')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 04:40:35 --> [Caused by] mysqli_sql_exception: Table 'sitsolutionsco_fts.tbl_file' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 5 APPPATH/Controllers/File/FileController.php(24): App\Models\Master\MasterModel->getAllData('tbl_file')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-20 04:47:26 --> mysqli_sql_exception: Unknown column 'isdeleted' in 'where clause' in /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM t...', 0)
+#1 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Controllers/File/FileController.php(24): App\Models\Master\MasterModel->getAllData('tbl_file')
+#5 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+#6 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+#7 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-20 04:47:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'isdeleted' in 'where clause'
+[Method: GET, Route: File]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 2 APPPATH/Controllers/File/FileController.php(24): App\Models\Master\MasterModel->getAllData('tbl_file')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 04:47:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'isdeleted' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 3 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Controllers/File/FileController.php(24): App\Models\Master\MasterModel->getAllData('tbl_file')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 04:47:26 --> [Caused by] mysqli_sql_exception: Unknown column 'isdeleted' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 4 APPPATH/Models/Master/MasterModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_file WHERE isdeleted = 0 order by id desc')
+ 5 APPPATH/Controllers/File/FileController.php(24): App\Models\Master\MasterModel->getAllData('tbl_file')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 11:04:21 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: File]
+in APPPATH/Views/File/view.php on line 54.
+ 1 APPPATH/Views/File/view.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/view.php', 54)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/view.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('File/view', [], true)
+ 5 APPPATH/Controllers/File/FileController.php(25): view('File/view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 11:10:25 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: File]
+in APPPATH/Views/File/view.php on line 54.
+ 1 APPPATH/Views/File/view.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/view.php', 54)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/view.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('File/view', [], true)
+ 5 APPPATH/Controllers/File/FileController.php(25): view('File/view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 11:12:28 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: File]
+in APPPATH/Views/File/view.php on line 54.
+ 1 APPPATH/Views/File/view.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/view.php', 54)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/view.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('File/view', [], true)
+ 5 APPPATH/Controllers/File/FileController.php(25): view('File/view', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 05:42:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "File/edit.php"
+[Method: GET, Route: updateFile]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('File/edit.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('File/edit', [], true)
+ 3 APPPATH/Controllers/File/FileController.php(80): view('File/edit', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->updateFile()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 12:43:01 --> ErrorException: Undefined variable $dept_list
+[Method: GET, Route: AddFile]
+in APPPATH/Views/File/add.php on line 46.
+ 1 APPPATH/Views/File/add.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dept_list', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/add.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/add.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('File/add', [], true)
+ 5 APPPATH/Controllers/File/FileController.php(29): view('File/add')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->AddFile()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 07:17:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "File/edit.php"
+[Method: GET, Route: updateFile]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('File/edit.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('File/edit', [], true)
+ 3 APPPATH/Controllers/File/FileController.php(81): view('File/edit', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->updateFile()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 13:00:35 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Dashboard/adminDashboard.php on line 751.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 4 APPPATH/Controllers/Dashboard/DashboardController.php(24): view('Dashboard/adminDashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 13:00:35 --> [Caused by] ErrorException: Undefined variable $pen_files
+in APPPATH/Views/Dashboard/adminDashboard.php on line 751.
+ 1 APPPATH/Views/Dashboard/adminDashboard.php(751): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pen_files', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php', 751)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 5 APPPATH/Controllers/Dashboard/DashboardController.php(24): view('Dashboard/adminDashboard')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 13:02:01 --> TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Dashboard/adminDashboard.php on line 751.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 4 APPPATH/Controllers/Dashboard/DashboardController.php(24): view('Dashboard/adminDashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 13:02:01 --> [Caused by] ErrorException: Undefined variable $pen_files
+in APPPATH/Views/Dashboard/adminDashboard.php on line 751.
+ 1 APPPATH/Views/Dashboard/adminDashboard.php(751): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pen_files', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php', 751)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 5 APPPATH/Controllers/Dashboard/DashboardController.php(24): view('Dashboard/adminDashboard')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 13:02:42 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Dashboard/adminDashboard.php on line 751.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 4 APPPATH/Controllers/Dashboard/DashboardController.php(24): view('Dashboard/adminDashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 13:02:42 --> [Caused by] ErrorException: Undefined variable $pen_files
+in APPPATH/Views/Dashboard/adminDashboard.php on line 751.
+ 1 APPPATH/Views/Dashboard/adminDashboard.php(751): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pen_files', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php', 751)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 5 APPPATH/Controllers/Dashboard/DashboardController.php(24): view('Dashboard/adminDashboard')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-20 07:36:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM t...', 0)
+#1 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Controllers/File/FileController.php(80): App\Models\Master\MasterModel->getData('tbl_file', '')
+#5 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\File\FileController->updateFile()
+#6 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+#7 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/fts.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-20 07:36:04 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[Method: GET, Route: updateFile]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_file WHERE id =  ')
+ 2 APPPATH/Controllers/File/FileController.php(80): App\Models\Master\MasterModel->getData('tbl_file', '')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->updateFile()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 07:36:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_file WHERE id =  ')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_file WHERE id =  ')
+ 3 APPPATH/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_file WHERE id =  ')
+ 4 APPPATH/Controllers/File/FileController.php(80): App\Models\Master\MasterModel->getData('tbl_file', '')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->updateFile()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 07:36:04 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM tbl_file WHERE id =  ', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM tbl_file WHERE id =  ')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM tbl_file WHERE id =  ')
+ 4 APPPATH/Models/Master/MasterModel.php(17): CodeIgniter\Database\BaseConnection->query('SELECT * FROM tbl_file WHERE id =  ')
+ 5 APPPATH/Controllers/File/FileController.php(80): App\Models\Master\MasterModel->getData('tbl_file', '')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->updateFile()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 16:11:09 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(25): view('Dashboard/adminDashboard', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 19:56:10 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: File]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/File/view.php(14): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/fts.sitsolutions.co.in/app/Views/File/view.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('File/view', [], true)
+ 9 APPPATH/Controllers/File/FileController.php(25): view('File/view', [...])
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\File\FileController->File()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\File\FileController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,528 @@
+CRITICAL - 2025-01-17 09:37:57 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(23): view('Dashboard/adminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 04:13:30 --> Error: Call to a member function get() on null
+[Method: GET, Route: /]
+in APPPATH/Controllers/BaseController.php on line 68.
+ 1 APPPATH/Controllers/Home.php(11): App\Controllers\BaseController->checkSession()
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 04:13:33 --> Error: Call to a member function get() on null
+[Method: GET, Route: /]
+in APPPATH/Controllers/BaseController.php on line 68.
+ 1 APPPATH/Controllers/Home.php(11): App\Controllers\BaseController->checkSession()
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 04:14:03 --> Error: Call to a member function get() on null
+[Method: GET, Route: /]
+in APPPATH/Controllers/BaseController.php on line 68.
+ 1 APPPATH/Controllers/Home.php(11): App\Controllers\BaseController->checkSession()
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 04:14:04 --> Error: Call to a member function get() on null
+[Method: GET, Route: /]
+in APPPATH/Controllers/BaseController.php on line 68.
+ 1 APPPATH/Controllers/Home.php(11): App\Controllers\BaseController->checkSession()
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Home->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 09:48:32 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(23): view('Dashboard/adminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 09:49:40 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(23): view('Dashboard/adminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 09:49:41 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(23): view('Dashboard/adminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 09:54:09 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(24): view('Dashboard/adminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 09:54:11 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(24): view('Dashboard/adminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 09:54:11 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(24): view('Dashboard/adminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 09:54:27 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(24): view('Dashboard/adminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 04:24:43 --> Error: Call to a member function get() on null
+[Method: GET, Route: adminDashboard]
+in APPPATH/Controllers/BaseController.php on line 68.
+ 1 APPPATH/Controllers/Dashboard/DashboardController.php(12): App\Controllers\BaseController->checkSession()
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Dashboard\DashboardController->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 04:24:44 --> Error: Call to a member function get() on null
+[Method: GET, Route: adminDashboard]
+in APPPATH/Controllers/BaseController.php on line 68.
+ 1 APPPATH/Controllers/Dashboard/DashboardController.php(12): App\Controllers\BaseController->checkSession()
+ 2 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Dashboard\DashboardController->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 10:00:45 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: adminDashboard]
+in APPPATH/Views/Include/header.php on line 53.
+ 1 APPPATH/Views/Include/header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php', 53)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Include/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Include/header', [], true)
+ 5 APPPATH/Views/Dashboard/adminDashboard.php(10): view('Include/header')
+ 6 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Dashboard/adminDashboard.php')
+ 7 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Dashboard/adminDashboard', [], true)
+ 9 APPPATH/Controllers/Dashboard/DashboardController.php(21): view('Dashboard/adminDashboard')
+10 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard\DashboardController->adminDashboard()
+11 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 04:42:41 --> ErrorException: Undefined variable $DevelopmentModel
+[Method: GET, Route: TenantForm]
+in APPPATH/Controllers/Development/DevelopmentController.php on line 22.
+ 1 APPPATH/Controllers/Development/DevelopmentController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DevelopmentModel', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Development/DevelopmentController.php', 22)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->TenantForm()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 10:12:53 --> ErrorException: Undefined variable $Zone
+[Method: GET, Route: TenantForm]
+in APPPATH/Views/Development/TenantForm.php on line 79.
+ 1 APPPATH/Views/Development/TenantForm.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Zone', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Development/TenantForm.php', 79)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Development/TenantForm.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Development/TenantForm', [], true)
+ 5 APPPATH/Controllers/Development/DevelopmentController.php(23): view('Development/TenantForm')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->TenantForm()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 04:47:11 --> Error: Class "App\Controllers\Deed\DevelopmentModel" not found
+[Method: GET, Route: ConveyanceForm]
+in APPPATH/Controllers/Deed/DeedController.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Deed\DeedController->ConveyanceForm()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deed\DeedController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:19:42 --> Error: Call to undefined method CodeIgniter\HTTP\Response::JSON()
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 609.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:19:43 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 APPPATH/Controllers/Master/MasterController.php(606): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 606)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:20:47 --> Error: Call to undefined method CodeIgniter\HTTP\Response::JSON()
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 609.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:20:51 --> Error: Call to undefined method CodeIgniter\HTTP\Response::JSON()
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 609.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:21:57 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 APPPATH/Controllers/Master/MasterController.php(606): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 606)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:22:06 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 APPPATH/Controllers/Master/MasterController.php(606): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 606)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:22:07 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 APPPATH/Controllers/Master/MasterController.php(606): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 606)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:37:27 --> Error: Call to undefined method CodeIgniter\HTTP\Response::JSON()
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 609.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:37:29 --> Error: Call to undefined method CodeIgniter\HTTP\Response::JSON()
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 609.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:37:32 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 APPPATH/Controllers/Master/MasterController.php(606): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 606)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:41:27 --> ErrorException: Undefined variable $owners
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 APPPATH/Controllers/Master/MasterController.php(606): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $owners', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 606)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:42:28 --> ErrorException: Undefined variable $owners
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 APPPATH/Controllers/Master/MasterController.php(606): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $owners', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 606)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 05:47:04 --> TypeError: array_map(): Argument #2 ($array) must be of type array, null given
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 APPPATH/Controllers/Master/MasterController.php(606): array_map(Object(Closure), null)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 06:47:58 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 APPPATH/Controllers/Master/MasterController.php(606): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 606)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 06:47:59 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 APPPATH/Controllers/Master/MasterController.php(606): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 606)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 06:48:11 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: suggestionsList]
+in APPPATH/Controllers/Master/MasterController.php on line 606.
+ 1 APPPATH/Controllers/Master/MasterController.php(606): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Master/MasterController.php', 606)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Master\MasterController->suggestionsList()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\MasterController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 07:01:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Master/Development/SocietyForm.php"
+[Method: POST, Route: create_society]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Master/Development/SocietyForm.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Master/Development/SocietyForm', [], true)
+ 3 APPPATH/Controllers/Development/DevelopmentController.php(67): view('Master/Development/SocietyForm', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->create_society()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 12:32:09 --> ErrorException: Undefined variable $Zone
+[Method: POST, Route: create_society]
+in APPPATH/Views/Development/SocietyForm.php on line 80.
+ 1 APPPATH/Views/Development/SocietyForm.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Zone', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Development/SocietyForm.php', 80)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Development/SocietyForm.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Development/SocietyForm', [], true)
+ 5 APPPATH/Controllers/Development/DevelopmentController.php(67): view('Development/SocietyForm', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->create_society()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 12:32:42 --> ErrorException: Undefined variable $Zone
+[Method: POST, Route: create_society]
+in APPPATH/Views/Development/SocietyForm.php on line 80.
+ 1 APPPATH/Views/Development/SocietyForm.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Zone', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Development/SocietyForm.php', 80)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Development/SocietyForm.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Development/SocietyForm', [...], true)
+ 5 APPPATH/Controllers/Development/DevelopmentController.php(69): view('Development/SocietyForm', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->create_society()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 12:32:59 --> ErrorException: Undefined variable $Zone
+[Method: POST, Route: create_society]
+in APPPATH/Views/Development/SocietyForm.php on line 80.
+ 1 APPPATH/Views/Development/SocietyForm.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Zone', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Development/SocietyForm.php', 80)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Development/SocietyForm.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Development/SocietyForm', [...], true)
+ 5 APPPATH/Controllers/Development/DevelopmentController.php(69): view('Development/SocietyForm', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->create_society()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 12:33:18 --> ErrorException: Undefined variable $Zone
+[Method: POST, Route: create_society]
+in APPPATH/Views/Development/SocietyForm.php on line 80.
+ 1 APPPATH/Views/Development/SocietyForm.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Zone', '/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Development/SocietyForm.php', 80)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Views/Development/SocietyForm.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('Development/SocietyForm', [...], true)
+ 5 APPPATH/Controllers/Development/DevelopmentController.php(69): view('Development/SocietyForm', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->create_society()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-01-17 07:15:59 --> mysqli_sql_exception: Unknown column 'development_plan_remark' in 'field list' in /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `tb...', 0)
+#1 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/app/Controllers/Development/DevelopmentController.php(56): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->create_society_form()
+#6 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+#7 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/sitsolutionsco/public_html/mudrank.sitsolutions.co.in/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-01-17 07:15:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'development_plan_remark' in 'field list'
+[Method: POST, Route: create_society_form]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_society_form` (`is_execution`, `execution_date`, `society`, `developer`, `consideration`, `cs_no`, `property_area`, `zone`, `rate`, `land_rate`, `residential_rate`, `construction_rate`, `basic_ratio`, `development_plan_remark`, `pr_card`, `indemnity_bond`, `cess_category`, `assesment_bill`, `corner_plot`, `existing_area_of_member`, `area_given_to_member`, `car_parking_allocated_to`, `monthly_compensation`, `corpus`, `rent`, `shifting`, `brokerage`, `fungible_additional_area`, `development_charges`, `infrastructure_charges`, `security_deposite`, `bank_guarantee`, `completion_period`, `document_description`, `property_details`) VALUES (:is_execution:, :execution_date:, :society:, :developer:, :consideration:, :cs_no:, :property_area:, :zone:, :rate:, :land_rate:, :residential_rate:, :construction_rate:, :basic_ratio:, :development_plan_remark:, :pr_card:, :indemnity_bond:, :cess_category:, :assesment_bill:, :corner_plot:, :existing_area_of_member:, :area_given_to_member:, :car_parking_allocated_to:, :monthly_compensation:, :corpus:, :rent:, :shifting:, :brokerage:, :fungible_additional_area:, :development_charges:, :infrastructure_charges:, :security_deposite:, :bank_guarantee:, :completion_period:, :document_description:, :property_details:)', [...], false)
+ 2 APPPATH/Controllers/Development/DevelopmentController.php(56): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->create_society_form()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 07:15:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'development_plan_remark' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_society_form` (`is_execution`, `execution_date`, `society`, `developer`, `consideration`, `cs_no`, `property_area`, `zone`, `rate`, `land_rate`, `residential_rate`, `construction_rate`, `basic_ratio`, `development_plan_remark`, `pr_card`, `indemnity_bond`, `cess_category`, `assesment_bill`, `corner_plot`, `existing_area_of_member`, `area_given_to_member`, `car_parking_allocated_to`, `monthly_compensation`, `corpus`, `rent`, `shifting`, `brokerage`, `fungible_additional_area`, `development_charges`, `infrastructure_charges`, `security_deposite`, `bank_guarantee`, `completion_period`, `document_description`, `property_details`) VALUES (\'Unexecuted\', \'\', \'Society\', \'Developer\', \'\', \'\', \'\', \'Select Zone\', \'\', \'\', \'\', \'\', \'\', \'\', \'Yes\', \'Yes\', \'Yes\', \'\', \'Yes\', \'\', \'\', \'Members\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_society_form` (`is_execution`, `execution_date`, `society`, `developer`, `consideration`, `cs_no`, `property_area`, `zone`, `rate`, `land_rate`, `residential_rate`, `construction_rate`, `basic_ratio`, `development_plan_remark`, `pr_card`, `indemnity_bond`, `cess_category`, `assesment_bill`, `corner_plot`, `existing_area_of_member`, `area_given_to_member`, `car_parking_allocated_to`, `monthly_compensation`, `corpus`, `rent`, `shifting`, `brokerage`, `fungible_additional_area`, `development_charges`, `infrastructure_charges`, `security_deposite`, `bank_guarantee`, `completion_period`, `document_description`, `property_details`) VALUES (\'Unexecuted\', \'\', \'Society\', \'Developer\', \'\', \'\', \'\', \'Select Zone\', \'\', \'\', \'\', \'\', \'\', \'\', \'Yes\', \'Yes\', \'Yes\', \'\', \'Yes\', \'\', \'\', \'Members\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_society_form` (`is_execution`, `execution_date`, `society`, `developer`, `consideration`, `cs_no`, `property_area`, `zone`, `rate`, `land_rate`, `residential_rate`, `construction_rate`, `basic_ratio`, `development_plan_remark`, `pr_card`, `indemnity_bond`, `cess_category`, `assesment_bill`, `corner_plot`, `existing_area_of_member`, `area_given_to_member`, `car_parking_allocated_to`, `monthly_compensation`, `corpus`, `rent`, `shifting`, `brokerage`, `fungible_additional_area`, `development_charges`, `infrastructure_charges`, `security_deposite`, `bank_guarantee`, `completion_period`, `document_description`, `property_details`) VALUES (:is_execution:, :execution_date:, :society:, :developer:, :consideration:, :cs_no:, :property_area:, :zone:, :rate:, :land_rate:, :residential_rate:, :construction_rate:, :basic_ratio:, :development_plan_remark:, :pr_card:, :indemnity_bond:, :cess_category:, :assesment_bill:, :corner_plot:, :existing_area_of_member:, :area_given_to_member:, :car_parking_allocated_to:, :monthly_compensation:, :corpus:, :rent:, :shifting:, :brokerage:, :fungible_additional_area:, :development_charges:, :infrastructure_charges:, :security_deposite:, :bank_guarantee:, :completion_period:, :document_description:, :property_details:)', [...], false)
+ 4 APPPATH/Controllers/Development/DevelopmentController.php(56): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->create_society_form()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-17 07:15:59 --> [Caused by] mysqli_sql_exception: Unknown column 'development_plan_remark' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `tbl_society_form` (`is_execution`, `execution_date`, `society`, `developer`, `consideration`, `cs_no`, `property_area`, `zone`, `rate`, `land_rate`, `residential_rate`, `construction_rate`, `basic_ratio`, `development_plan_remark`, `pr_card`, `indemnity_bond`, `cess_category`, `assesment_bill`, `corner_plot`, `existing_area_of_member`, `area_given_to_member`, `car_parking_allocated_to`, `monthly_compensation`, `corpus`, `rent`, `shifting`, `brokerage`, `fungible_additional_area`, `development_charges`, `infrastructure_charges`, `security_deposite`, `bank_guarantee`, `completion_period`, `document_description`, `property_details`) VALUES (\'Unexecuted\', \'\', \'Society\', \'Developer\', \'\', \'\', \'\', \'Select Zone\', \'\', \'\', \'\', \'\', \'\', \'\', \'Yes\', \'Yes\', \'Yes\', \'\', \'Yes\', \'\', \'\', \'Members\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_society_form` (`is_execution`, `execution_date`, `society`, `developer`, `consideration`, `cs_no`, `property_area`, `zone`, `rate`, `land_rate`, `residential_rate`, `construction_rate`, `basic_ratio`, `development_plan_remark`, `pr_card`, `indemnity_bond`, `cess_category`, `assesment_bill`, `corner_plot`, `existing_area_of_member`, `area_given_to_member`, `car_parking_allocated_to`, `monthly_compensation`, `corpus`, `rent`, `shifting`, `brokerage`, `fungible_additional_area`, `development_charges`, `infrastructure_charges`, `security_deposite`, `bank_guarantee`, `completion_period`, `document_description`, `property_details`) VALUES (\'Unexecuted\', \'\', \'Society\', \'Developer\', \'\', \'\', \'\', \'Select Zone\', \'\', \'\', \'\', \'\', \'\', \'\', \'Yes\', \'Yes\', \'Yes\', \'\', \'Yes\', \'\', \'\', \'Members\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_society_form` (`is_execution`, `execution_date`, `society`, `developer`, `consideration`, `cs_no`, `property_area`, `zone`, `rate`, `land_rate`, `residential_rate`, `construction_rate`, `basic_ratio`, `development_plan_remark`, `pr_card`, `indemnity_bond`, `cess_category`, `assesment_bill`, `corner_plot`, `existing_area_of_member`, `area_given_to_member`, `car_parking_allocated_to`, `monthly_compensation`, `corpus`, `rent`, `shifting`, `brokerage`, `fungible_additional_area`, `development_charges`, `infrastructure_charges`, `security_deposite`, `bank_guarantee`, `completion_period`, `document_description`, `property_details`) VALUES (\'Unexecuted\', \'\', \'Society\', \'Developer\', \'\', \'\', \'\', \'Select Zone\', \'\', \'\', \'\', \'\', \'\', \'\', \'Yes\', \'Yes\', \'Yes\', \'\', \'Yes\', \'\', \'\', \'Members\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_society_form` (`is_execution`, `execution_date`, `society`, `developer`, `consideration`, `cs_no`, `property_area`, `zone`, `rate`, `land_rate`, `residential_rate`, `construction_rate`, `basic_ratio`, `development_plan_remark`, `pr_card`, `indemnity_bond`, `cess_category`, `assesment_bill`, `corner_plot`, `existing_area_of_member`, `area_given_to_member`, `car_parking_allocated_to`, `monthly_compensation`, `corpus`, `rent`, `shifting`, `brokerage`, `fungible_additional_area`, `development_charges`, `infrastructure_charges`, `security_deposite`, `bank_guarantee`, `completion_period`, `document_description`, `property_details`) VALUES (:is_execution:, :execution_date:, :society:, :developer:, :consideration:, :cs_no:, :property_area:, :zone:, :rate:, :land_rate:, :residential_rate:, :construction_rate:, :basic_ratio:, :development_plan_remark:, :pr_card:, :indemnity_bond:, :cess_category:, :assesment_bill:, :corner_plot:, :existing_area_of_member:, :area_given_to_member:, :car_parking_allocated_to:, :monthly_compensation:, :corpus:, :rent:, :shifting:, :brokerage:, :fungible_additional_area:, :development_charges:, :infrastructure_charges:, :security_deposite:, :bank_guarantee:, :completion_period:, :document_description:, :property_details:)', [...], false)
+ 5 APPPATH/Controllers/Development/DevelopmentController.php(56): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Development\DevelopmentController->create_society_form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Development\DevelopmentController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
